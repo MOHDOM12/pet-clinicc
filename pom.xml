@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>mohd.springframework</groupId>
-	<artifactId>pet-clinic</artifactId>
+	<artifactId>pet-clinicc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<modules>
@@ -13,8 +13,8 @@
 
 	<packaging>pom</packaging>
 
-	<name>pet-clinic</name>
-	<description>SFG Pet Clinic Project</description>
+	<name>pet-clinicc</name>
+	<description>SFG Pet Clinicc Project</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
