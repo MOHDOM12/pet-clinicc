@@ -28,7 +28,7 @@ public class VisitSDJpaService implements VisitService
     }
 
     @Override
-    public Visit findByID(Long id) {
+    public Visit findById(Long id) {
         return visitRepository.findById(id).orElse(null);
     }
 
@@ -43,7 +43,7 @@ public class VisitSDJpaService implements VisitService
     }
 
     @Override
-    public void deleteId(Long id) {
+    public void deleteById(Long id) {
         visitRepository.deleteById(id);
     }
 }

@@ -27,7 +27,7 @@ public class SpecialitySDJpaService implements SpecialityService {
     }
 
     @Override
-    public Speciality findByID(Long id) {
+    public Speciality findById(Long id) {
         return specialtyRepository.findById(id).orElse(null);
     }
 
@@ -42,7 +42,7 @@ public class SpecialitySDJpaService implements SpecialityService {
     }
 
     @Override
-    public void deleteId(Long id)
+    public void deleteById(Long id)
     {
         specialtyRepository.deleteById(id);
     }

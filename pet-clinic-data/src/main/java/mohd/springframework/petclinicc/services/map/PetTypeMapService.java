@@ -17,7 +17,7 @@ public class PetTypeMapService extends AbstractMapService<PetType, Long> impleme
     }
 
     @Override
-    public PetType findByID(Long id) {
+    public PetType findById(Long id) {
         return super.findById(id);
     }
 
@@ -32,7 +32,7 @@ public class PetTypeMapService extends AbstractMapService<PetType, Long> impleme
     }
 
     @Override
-    public void deleteId(Long id) {
+    public void deleteById(Long id) {
         super.deleteById(id);
     }
 }

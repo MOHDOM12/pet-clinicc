@@ -12,7 +12,8 @@ class OwnerMapServiceTest {
 
     OwnerMapService ownerMapService;
     final Long ownerId = 1L;
-    final String lastName = "Smith";;
+    final String lastName = "Smith";
+
 
     @BeforeEach
     void setUp()
@@ -30,7 +31,7 @@ class OwnerMapServiceTest {
 
     @Test
     void findByID() {
-        Owner owner = ownerMapService.findByID(ownerId);
+        Owner owner = ownerMapService.findById(ownerId);
 
         assertEquals(ownerId, owner.getId());
     }

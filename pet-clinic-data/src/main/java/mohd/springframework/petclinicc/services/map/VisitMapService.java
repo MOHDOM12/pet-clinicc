@@ -16,7 +16,7 @@ public class VisitMapService extends AbstractMapService<Visit, Long> implements 
     }
 
     @Override
-    public Visit findByID(Long id) {
+    public Visit findById(Long id) {
         return super.findById(id);
     }
 
@@ -36,7 +36,7 @@ public class VisitMapService extends AbstractMapService<Visit, Long> implements 
     }
 
     @Override
-    public void deleteId(Long id) {
+    public void deleteById(Long id) {
         super.deleteById(id);
     }
 }
