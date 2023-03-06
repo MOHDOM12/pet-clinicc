@@ -2,7 +2,7 @@ package mohd.springframework.petclinicc.services.Springdatajpa;
 
 import mohd.springframework.petclinicc.model.Speciality;
 import mohd.springframework.petclinicc.repositories.SpecialtyRepository;
-import mohd.springframework.petclinicc.services.SpecialityService;
+import mohd.springframework.petclinicc.services.SpecialtyService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +11,7 @@ import java.util.Set;
 
 @Service
 @Profile("springdatajpa")
-public class SpecialitySDJpaService implements SpecialityService {
+public class SpecialitySDJpaService implements SpecialtyService {
 
     private final SpecialtyRepository specialtyRepository;
 

@@ -3,7 +3,7 @@ package mohd.springframework.petclinicc.services.map;
 import mohd.springframework.petclinicc.model.Speciality;
 import mohd.springframework.petclinicc.model.Vet;
 
-import mohd.springframework.petclinicc.services.SpecialityService;
+import mohd.springframework.petclinicc.services.SpecialtyService;
 import mohd.springframework.petclinicc.services.VetService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
@@ -14,9 +14,9 @@ import java.util.Set;
 @Profile({"default", "map"})
 public class VetMapService extends AbstractMapService<Vet,Long> implements VetService {
 
-    private final SpecialityService specialityService;
+    private final SpecialtyService specialityService;
 
-    public VetMapService(SpecialityService specialityService) {
+    public VetMapService(SpecialtyService specialityService) {
         this.specialityService = specialityService;
     }
 
